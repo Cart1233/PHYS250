@@ -1,3 +1,31 @@
 Section 3.1 Simple Harmonic Motion
 	Force perpendicular to a pendulum is $$f_0=-m*g*sin(Theta)$$
+	Newtons second law: force is equal to m*a
+	Displacement along the arc is s=l*theta
+	use arrays to calc omega, theta, and t.
+	the motion is oscillatory, with the amplitude growing with time.
+	energy remains constant
+	smaller time step makes errors smaller
+	v= omega*l
+	Energy with the Euler method is always positive
+Section 3.2 Making the Pendulum more Interesting
+	we add friction here, which is always negative as it works against the pendulum
+	q measures the strength of dampening
+	dampening is things like friction and air resistance
+	theres three regimes of dampening, the first is under-damped, followed by over-damped, then finally criticaly damped
+	each dampness has its own equation
+	we add an external driving force
+Section 3.3 Chaos in the Driven Nonlinear Pendulum 
+	add all three prior discussed methods become combined in equation 3.18
+	this equation is for nonlinear, damped, driven pendulum, called the physical pendulum
+	theta is awlays between -pi and pi
+	pendulum can now spin all the way around its pivot point
+	the motion of the pendulum is an interplay of the natural frequency and the frequency of the driving force
+	at low drive the motion is a simple oscillation
+	at high drive the motion is chaotic
+	dips in delta theta occur when one pendulum reaches a turning point
+	when pendulums start with nearly the same initial conditions their trajectories will diverge exponentially fast
+	a system can obey certain laws of physics, but can exhibit unpredictable behavior due to sensitivity to initial conditions
+	phase-space plot is angular velocity as a function of theta
+	things look simpiler when observed at a rate that matches the problem
 	
